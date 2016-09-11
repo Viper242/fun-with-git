@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A320" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Loaner" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Loaner-Logo" translatesAutoresizingMaskIntoConstraints="NO" id="iUF-0X-mAy">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="285" id="B8e-aP-Iv9"/>
+                                    <constraint firstAttribute="height" constant="61" id="jos-Yd-FvR"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="buick-avista-concept-dissected-design-powertrain-and-more-feature-car-and-driver-photo-666699-s-450x274" translatesAutoresizingMaskIntoConstraints="NO" id="JC1-bn-rGI">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="uv6-2b-t8j"/>
+                                    <constraint firstAttribute="height" constant="128" id="xYA-WU-Phe"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LÅNAT BELOPP:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TQa-tE-emO">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="vGK-K5-Jrj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RÄNTA:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VsX-jF-Hit">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="bd1-fW-eMa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ANTAL MÅNADER:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MgT-ai-ODP">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="YBm-I3-9q0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MÅNADSKOSTNAD:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M0f-c6-Rk3">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="5ni-9R-2AW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XBm-4N-1JI">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="FcB-HT-Idf"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ze7-jh-qPc">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="g80-2n-FX7"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uqd-HJ-8uZ">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="vPf-O6-4Zb"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LpC-qw-oXg">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="RBX-6a-KZ2"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="325kr per månad">
+                                        <attributes>
+                                            <color key="NSColor" red="0.27312864269824733" green="0.82612230329949243" blue="0.18811480539647615" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kL2-ks-PUz">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="262" id="LBw-Eu-mAk"/>
+                                    <constraint firstAttribute="height" constant="42" id="Pff-fX-QUS"/>
+                                </constraints>
+                                <state key="normal" image="Calculate_Button">
+                                    <color key="titleColor" red="0.5831661832309597" green="0.5918147412077337" blue="0.98844200370000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="calculatePayment:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yhm-qk-QUq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="iUF-0X-mAy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3TX-6a-Jy2"/>
+                            <constraint firstItem="MgT-ai-ODP" firstAttribute="top" secondItem="ze7-jh-qPc" secondAttribute="bottom" constant="14" id="4sY-rf-I1e"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="LpC-qw-oXg" secondAttribute="trailing" constant="52" id="6ft-UE-Dx4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XBm-4N-1JI" secondAttribute="trailing" constant="52" id="6wU-RB-baL"/>
+                            <constraint firstItem="ze7-jh-qPc" firstAttribute="top" secondItem="VsX-jF-Hit" secondAttribute="bottom" constant="8" id="AsX-2Q-D1a"/>
+                            <constraint firstItem="VsX-jF-Hit" firstAttribute="top" secondItem="XBm-4N-1JI" secondAttribute="bottom" constant="17" id="HTr-nU-IjX"/>
+                            <constraint firstItem="XBm-4N-1JI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="29" id="Ie7-jA-xbS"/>
+                            <constraint firstItem="kL2-ks-PUz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JQo-9L-0vn"/>
+                            <constraint firstItem="JC1-bn-rGI" firstAttribute="centerX" secondItem="iUF-0X-mAy" secondAttribute="centerX" id="Lj8-Nl-06U"/>
+                            <constraint firstItem="iUF-0X-mAy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Mas-F8-WOb"/>
+                            <constraint firstItem="kL2-ks-PUz" firstAttribute="top" secondItem="LpC-qw-oXg" secondAttribute="bottom" constant="49" id="MeJ-uF-rme"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VsX-jF-Hit" secondAttribute="trailing" constant="52" id="Qqe-8C-zLi"/>
+                            <constraint firstItem="uqd-HJ-8uZ" firstAttribute="top" secondItem="MgT-ai-ODP" secondAttribute="bottom" constant="8" id="RFi-95-Sbp"/>
+                            <constraint firstItem="LpC-qw-oXg" firstAttribute="top" secondItem="M0f-c6-Rk3" secondAttribute="bottom" constant="8" id="S0o-Ht-x5p"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="M0f-c6-Rk3" secondAttribute="trailing" constant="52" id="T9B-ea-kiR"/>
+                            <constraint firstItem="ze7-jh-qPc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="29" id="Y8S-P6-zon"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MgT-ai-ODP" secondAttribute="trailing" constant="52" id="fJT-w4-FTX"/>
+                            <constraint firstItem="M0f-c6-Rk3" firstAttribute="top" secondItem="uqd-HJ-8uZ" secondAttribute="bottom" constant="21" id="fNM-aB-4Ax"/>
+                            <constraint firstItem="uqd-HJ-8uZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="29" id="fow-Si-nPN"/>
+                            <constraint firstItem="VsX-jF-Hit" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="29" id="gvg-iA-nA0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uqd-HJ-8uZ" secondAttribute="trailing" constant="52" id="hkI-U4-OpH"/>
+                            <constraint firstItem="M0f-c6-Rk3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="29" id="iwu-Xi-W6z"/>
+                            <constraint firstItem="JC1-bn-rGI" firstAttribute="top" secondItem="iUF-0X-mAy" secondAttribute="bottom" constant="8" id="jBl-QJ-hN8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ze7-jh-qPc" secondAttribute="trailing" constant="52" id="mZA-Tq-NAF"/>
+                            <constraint firstItem="XBm-4N-1JI" firstAttribute="top" secondItem="TQa-tE-emO" secondAttribute="bottom" constant="8" id="nfJ-TO-P4K"/>
+                            <constraint firstItem="TQa-tE-emO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="29" id="tsM-wQ-PAx"/>
+                            <constraint firstItem="MgT-ai-ODP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="29" id="wEX-Qm-k1f"/>
+                            <constraint firstItem="TQa-tE-emO" firstAttribute="top" secondItem="JC1-bn-rGI" secondAttribute="bottom" constant="2" id="wI6-09-B0e"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TQa-tE-emO" secondAttribute="trailing" constant="52" id="xXo-9A-Fmz"/>
+                            <constraint firstItem="LpC-qw-oXg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="29" id="zQI-UL-Zfb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="borrowedTextField" destination="XBm-4N-1JI" id="eNy-ZQ-LN2"/>
+                        <outlet property="calculateButton" destination="kL2-ks-PUz" id="ziG-E3-LFp"/>
+                        <outlet property="interestTextField" destination="ze7-jh-qPc" id="6SN-5h-Vax"/>
+                        <outlet property="monthsTextField" destination="uqd-HJ-8uZ" id="U50-yc-kuu"/>
+                        <outlet property="paymentLabel" destination="LpC-qw-oXg" id="S0T-q4-z45"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Calculate_Button" width="214" height="35"/>
+        <image name="Loaner-Logo" width="220" height="52"/>
+        <image name="buick-avista-concept-dissected-design-powertrain-and-more-feature-car-and-driver-photo-666699-s-450x274" width="450" height="274"/>
+    </resources>
+</document>
